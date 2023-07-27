@@ -31,7 +31,7 @@ I created an online employee management system web application that will allow u
 &nbsp; &nbsp; * React <br />
 &nbsp; &nbsp; * Node.js <br />
 &nbsp; &nbsp; * Express <br />
-&nbsp; &nbsp; * SQLite <br />
+&nbsp; &nbsp; * MySQL <br />
 &nbsp; &nbsp; * React-Table <br />
 &nbsp; &nbsp; * React-Bootstrap <br />
 &nbsp; &nbsp; * Axios <br />
@@ -45,4 +45,4 @@ I created an online employee management system web application that will allow u
 &nbsp; &nbsp; 1. npm install <br />
 &nbsp; &nbsp; 2. npm start <br /><br />
 
-The front-end app runs on localhost:3000. The REST API is located in the /server folder and runs on localhost:8080. The data is being served by index.js located n the /server/index.js and actual data from a plexxis.db is located in the /server/repo folder (if it does not exist, it will be created when the application is run for the first time). Run "npm start" to start both servers.
+The front-end app runs on localhost:3000. The REST API is located in the /server folder and runs on localhost:8080. The data is being served by index.js located n the /server/index.js and actual data from  MySQL is located in the /server folder (if it does not exist, it will be created when the application is run for the first time). Run "npm start" to start both servers.
